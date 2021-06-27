@@ -199,21 +199,27 @@ body {
 .pricing-button {
   border: 1px solid #9dd1ff;
   border-radius: 10px;
-  color: #348efe;
+  color: white;
   display: inline-block;
   padding: 15px 35px;
   text-decoration: none;
   margin: 25px 0;
   transition: background-color 200ms ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #200122 0%,
+    #6f0000 51%,
+    #200122 100%
+  );
 }
 
 .pricing-button:hover,
 .pricing-button:focus {
   background-image: linear-gradient(
     to right,
-    #200122 0%,
-    #6f0000 51%,
-    #200122 100%
+    #5f2c82 0%,
+    #49a09d 51%,
+    #5f2c82 100%
   );
   color: white;
 }

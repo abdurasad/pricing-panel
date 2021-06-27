@@ -209,7 +209,13 @@ body {
 
 .pricing-button:hover,
 .pricing-button:focus {
-  background-color: #e1f1ff;
+  background-image: linear-gradient(
+    to right,
+    #200122 0%,
+    #6f0000 51%,
+    #200122 100%
+  );
+  color: white;
 }
 
 .pricing-button.is-featured {
